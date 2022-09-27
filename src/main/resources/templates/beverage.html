@@ -53,10 +53,10 @@
           </div>
         </div>
         <div class="row fs-4 fw-bold mt-5 my-auto">
-            <div class="col-3">
+            <div class="col-5">
                 Image
             </div>
-            <div class="col-7 my-auto">
+            <div class="col-5 my-auto">
                 Drink Name
             </div>
             <div class="col-2 my-auto text-end">
@@ -68,11 +68,11 @@
         <!-- Content (Beverages) -->
         <div th:each="pieceOfInform : ${inform}" class="row fs-4 fw-bold mt-5">
             <div class="col-5">
-                <img th:image ="${pieceOfInform.drinkImage}" alt="">
+                <img th:src="${pieceOfInform.drinkImage}" alt="">
             </div>
-            <div th:name="${pieceOfInform.drinkName}" class="col-5 my-auto">
+            <div th:text="${pieceOfInform.drinkName}" class="col-5 my-auto">
             </div>
-            <div th:preis="${pieceOfInform.drinkPreis}" class="col-2 my-auto text-end">
+            <div th:text="${pieceOfInform.drinkPreis}" class="col-2 my-auto text-end">
             </div>
         </div>
 

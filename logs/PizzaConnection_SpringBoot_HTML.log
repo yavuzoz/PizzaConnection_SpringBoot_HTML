@@ -2793,3 +2793,59 @@ org.springframework.expression.spel.SpelEvaluationException: EL1008E: Property o
 2022-09-27 10:46:07,503 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
 2022-09-27 10:46:07,504 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
 2022-09-27 10:46:07,535 INFO ch.bfh.ti.pizzaconnection_springboot_html.controller.PizzaController [http-nio-8081-exec-1] PizzaController::pizza()
+2022-09-27 19:23:01,045 INFO org.springframework.boot.StartupInfoLogger [main] Starting PizzaConnectionSpringBootHtmlApplication using Java 18.0.2.1 on DESKTOP-VQGH9P1 with PID 16172 (C:\All_Doc\Passerelle\PizzaConnection_SpringBoot_HTML\target\classes started by YAVUZ in C:\All_Doc\Passerelle\PizzaConnection_SpringBoot_HTML)
+2022-09-27 19:23:01,050 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-27 19:23:02,519 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2022-09-27 19:23:02,538 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2022-09-27 19:23:02,539 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-27 19:23:02,540 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 19:23:02,717 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-27 19:23:02,717 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1573 ms
+2022-09-27 19:23:03,066 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2022-09-27 19:23:03,610 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2022-09-27 19:23:03,647 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2022-09-27 19:23:03,676 INFO org.springframework.boot.StartupInfoLogger [main] Started PizzaConnectionSpringBootHtmlApplication in 3.692 seconds (JVM running for 9.071)
+2022-09-27 19:24:00,217 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 19:24:00,218 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-09-27 19:24:00,219 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
+2022-09-27 19:24:00,251 INFO ch.bfh.ti.pizzaconnection_springboot_html.controller.IndexController [http-nio-8081-exec-1] IndexController::index()
+2022-09-27 19:24:02,161 INFO ch.bfh.ti.pizzaconnection_springboot_html.controller.BeverageController [http-nio-8081-exec-3] BeverageController::beverage()
+2022-09-27 19:24:03,349 INFO ch.bfh.ti.pizzaconnection_springboot_html.controller.PizzaController [http-nio-8081-exec-8] PizzaController::pizza()
+2022-09-27 19:25:54,018 INFO org.springframework.boot.StartupInfoLogger [main] Starting PizzaConnectionSpringBootHtmlApplication using Java 18.0.2.1 on DESKTOP-VQGH9P1 with PID 12120 (C:\All_Doc\Passerelle\PizzaConnection_SpringBoot_HTML\target\classes started by YAVUZ in C:\All_Doc\Passerelle\PizzaConnection_SpringBoot_HTML)
+2022-09-27 19:25:54,022 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-27 19:25:54,952 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2022-09-27 19:25:54,966 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2022-09-27 19:25:54,967 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-27 19:25:54,968 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 19:25:55,069 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-27 19:25:55,069 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 993 ms
+2022-09-27 19:25:55,270 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2022-09-27 19:25:55,604 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2022-09-27 19:25:55,623 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2022-09-27 19:25:55,633 INFO org.springframework.boot.StartupInfoLogger [main] Started PizzaConnectionSpringBootHtmlApplication in 2.224 seconds (JVM running for 3.6)
+2022-09-27 19:25:56,281 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 19:25:56,282 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-09-27 19:25:56,283 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 1 ms
+2022-09-27 19:25:56,336 INFO ch.bfh.ti.pizzaconnection_springboot_html.controller.PizzaController [http-nio-8081-exec-1] PizzaController::pizza()
+2022-09-27 19:26:02,732 INFO ch.bfh.ti.pizzaconnection_springboot_html.controller.BeverageController [http-nio-8081-exec-5] BeverageController::beverage()
+2022-09-27 19:26:27,680 INFO org.springframework.boot.StartupInfoLogger [main] Starting PizzaConnectionSpringBootHtmlApplication using Java 18.0.2.1 on DESKTOP-VQGH9P1 with PID 424 (C:\All_Doc\Passerelle\PizzaConnection_SpringBoot_HTML\target\classes started by YAVUZ in C:\All_Doc\Passerelle\PizzaConnection_SpringBoot_HTML)
+2022-09-27 19:26:27,684 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-09-27 19:26:28,516 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2022-09-27 19:26:28,527 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2022-09-27 19:26:28,528 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-09-27 19:26:28,529 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-27 19:26:28,632 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-09-27 19:26:28,632 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 904 ms
+2022-09-27 19:26:28,846 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [main] Adding welcome page template: index
+2022-09-27 19:26:29,166 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2022-09-27 19:26:29,187 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2022-09-27 19:26:29,198 INFO org.springframework.boot.StartupInfoLogger [main] Started PizzaConnectionSpringBootHtmlApplication in 2.072 seconds (JVM running for 3.176)
+2022-09-27 19:26:33,193 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-27 19:26:33,194 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-09-27 19:26:33,194 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 0 ms
+2022-09-27 19:26:33,228 INFO ch.bfh.ti.pizzaconnection_springboot_html.controller.BeverageController [http-nio-8081-exec-1] BeverageController::beverage()
+2022-09-27 19:26:36,601 INFO ch.bfh.ti.pizzaconnection_springboot_html.controller.BeverageController [http-nio-8081-exec-4] BeverageController::beverage()
+2022-09-27 19:26:38,222 INFO ch.bfh.ti.pizzaconnection_springboot_html.controller.BeverageController [http-nio-8081-exec-7] BeverageController::beverage()
+2022-09-27 19:26:39,795 INFO ch.bfh.ti.pizzaconnection_springboot_html.controller.IndexController [http-nio-8081-exec-10] IndexController::index()
+2022-09-27 19:26:40,406 INFO ch.bfh.ti.pizzaconnection_springboot_html.controller.PizzaController [http-nio-8081-exec-5] PizzaController::pizza()
+2022-09-27 19:26:41,540 INFO ch.bfh.ti.pizzaconnection_springboot_html.controller.BeverageController [http-nio-8081-exec-7] BeverageController::beverage()
