@@ -59,12 +59,12 @@
         </div>
         <div th:each="pieceOfInformations : ${informations}" class="row fs-4 fw-bold mt-5">
             <div class="col-3"><img th:src="${pieceOfInformations.image}" alt=""></div>
-            <div th:species="${pieceOfInformations.species}" class="col-3 my-auto"></div>
-            <div th:ingredient="${pieceOfInformations.ingredient}" class="col-3 my-auto"></div>
+            <div th:text="${pieceOfInformations.species}" class="col-3 my-auto"></div>
+            <div th:text="${pieceOfInformations.ingredient}" class="col-3 my-auto"></div>
             <div class="col-3 my-auto text-end">
-                <span th:preissmall="${pieceOfInformations.preissmall}">&#8960;</span>
+                <span th:text="${pieceOfInformations.preissmall}">&#8960;</span>
                 <br>
-                <span th:preislarge="${pieceOfInformations.preislarge}">&#8960; </span>
+                <span th:text="${pieceOfInformations.preislarge}">&#8960; </span>
             </div>
         </div>
         <!-- Funghi -->
