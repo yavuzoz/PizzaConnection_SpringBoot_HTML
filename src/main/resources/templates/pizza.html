@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Load Bootstrap CSS from JAR archive file -->
+    <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="icons/icon.png">
+    <title>Pizza Connection</title>
+
+  </head>
+  <body class="pizzaBackgroundTransparent">
+
+    <div class="container">
+
+        <!-- Title -->
+        <div class="row mt-5 text-center">
+            <div class="col-3">
+                <img src="../static/images/pizzaiolo.png" style="width: 40px; height: auto" alt="">
+            </div>
+            <div class="col-6">
+                <h1>Pizza Connection</h1>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="row text-center">
+            <div class="col-12">
+                <hr>
+                <a href="/index" class="btn btn-primary" role="button" style="width: 150px">Home</a>
+                <a href="/pizza" class="btn btn-primary disabled" role="button" style="width: 150px">Pizza</a>
+                <a href="/beverage" class="btn btn-primary" role="button" style="width: 150px">Beverage</a>
+                <a href="/about" class="btn btn-primary" role="button" style="width: 150px">About</a>
+                <hr>
+            </div>
+        </div>
+
+        <!-- Page title -->
+        <div class="row mt-5 text-center">
+          <div class="col-12">
+            <h2>Pizzas</h2>
+          </div>
+        </div>
+
+        <!-- Content (Pizzas) -->
+        <!-- Margherita -->
+        <div class="row fs-4 fw-bold mt-5">
+            <div class="col-3">Image</div>
+            <div class="col-3 my-auto">Species</div>
+            <div class="col-3 my-auto">Ingredient</div>
+            <div class="col-3 my-auto text-end">
+                <span>&#8960;Small-price </span>
+                <br>
+                <span>&#8960;Large-price </span>
+            </div>
+        </div>
+        <div th:each="pieceOfInformations : ${informations}" class="row fs-4 fw-bold mt-5">
+            <div class="col-3"><img th:src="${pieceOfInformations.image}" alt=""></div>
+            <div th:species="${pieceOfInformations.species}" class="col-3 my-auto"></div>
+            <div th:ingredient="${pieceOfInformations.ingredient}" class="col-3 my-auto"></div>
+            <div class="col-3 my-auto text-end">
+                <span th:preissmall="${pieceOfInformations.preissmall}">&#8960;</span>
+                <br>
+                <span th:preislarge="${pieceOfInformations.preislarge}">&#8960; </span>
+            </div>
+        </div>
+        <!-- Funghi -->
+
+        <!-- Napoli -->
+
+        <!-- Verde -->
+
+    </div>
+
+    <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+    
+  </body>
+</html>
